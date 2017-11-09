@@ -61,7 +61,6 @@ a.btn {
   box-shadow: 0 0 2px #ccc;
   padding: 3px 15px;
   cursor: pointer;
-  -webkit-transition: box-shadow 0.25s linear;
   transition: box-shadow 0.25s linear;
 }
 a.btn:hover {
@@ -102,7 +101,6 @@ header {
   left: -78px;
   -webkit-transform: rotate(-6deg);
           transform: rotate(-6deg);
-  -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
 .scrolled #logo a::after {
@@ -111,7 +109,6 @@ header {
 }
 #logo img {
   width: 100%;
-  -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
 .scrolled #logo img {
@@ -123,7 +120,6 @@ nav {
   font-family: Helvetica Neue, Helvetica, sans-serif;
   font-size: 18px;
   padding: 18px 0;
-  -webkit-transition: box-shadow 0.25s ease-out;
   transition: box-shadow 0.25s ease-out;
 }
 .scrolled nav {
@@ -141,7 +137,6 @@ nav li:nth-child(3), nav li:nth-child(4) {
 }
 nav a {
   text-decoration: none;
-  -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
   padding: 10px;
 }
@@ -314,7 +309,6 @@ main {
   background: transparent url(img/icon-arrow-down-dark.svg) no-repeat scroll center center;
   background-size: auto 40px;
   height: 40px;
-  -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
 .piece.closed.light::after {
@@ -325,7 +319,6 @@ main {
 }
 .piece .full {
   overflow: hidden;
-  -webkit-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
 }
 .piece .open-arrow {
